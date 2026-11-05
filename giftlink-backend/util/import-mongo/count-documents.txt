@@ -1,0 +1,2 @@
+giftdb> db.gifts.countDocuments()
+16

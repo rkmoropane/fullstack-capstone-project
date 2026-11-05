@@ -1,0 +1,31 @@
+giftdb> db.gifts.find().limit(2)
+[
+  {
+    _id: ObjectId('6aecb7c53e55c3636a0172c4'),
+    id: '875',
+    name: 'Lamp',
+    category: 'Kitchen',
+    condition: 'New',
+    posted_by: '26872',
+    zipcode: '94805',
+    date_added: 1693267200,
+    age_days: 400,
+    age_years: 1.1,
+    description: "A charming lamp that's been lighting up my reading nook...",
+    image: '/images/lamp.jpeg'
+  },
+  {
+    _id: ObjectId('6aecb7c53e55c3636a0172c5'),
+    id: '396',
+    name: 'Curtain',
+    category: 'Office',
+    condition: 'Older',
+    posted_by: '26872',
+    zipcode: '94504',
+    date_added: 1686960000,
+    age_days: 1073,
+    age_years: 2.94,
+    description: 'Elegant, flowy curtains that have graced my living room windows...',
+    image: '/images/curtains1.jpeg'
+  }
+]

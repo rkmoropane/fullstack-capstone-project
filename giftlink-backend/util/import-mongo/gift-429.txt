@@ -1,0 +1,17 @@
+giftdb> db.gifts.find({ id: '429' })
+[
+  {
+    _id: ObjectId('6aecb7c53e55c3636a0172d2'),
+    id: '429',
+    name: 'Side Table',
+    category: 'Living Room',
+    condition: 'Older',
+    posted_by: '23789',
+    zipcode: '94102',
+    date_added: 1677715200,
+    age_days: 1100,
+    age_years: 3.01,
+    description: 'This side table has been a convenient spot for lamps and books...',
+    image: '/images/side-table.jpeg'
+  }
+]

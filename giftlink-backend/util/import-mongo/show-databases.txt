@@ -1,0 +1,5 @@
+test> show databases
+admin   100.00 KiB
+config   12.00 KiB
+giftdb   40.00 KiB
+local    72.00 KiB
