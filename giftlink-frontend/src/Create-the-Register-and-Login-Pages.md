@@ -641,16 +641,16 @@ http://localhost:3000/app/login
 
 Confirm that:
 
-- [ ] The registration page loads.
-- [ ] The first-name field is visible.
-- [ ] The last-name field is visible.
-- [ ] The email field is visible.
-- [ ] The password field is visible.
-- [ ] Input values update as you type.
-- [ ] Clicking `"Register"` calls `"handleRegister()"`.
-- [ ] `"Register invoked"` appears in the browser console.
-- [ ] The `"Login"` link opens `"/app/login"`.
-- [ ] The styling is applied correctly.
+- [x] The registration page loads.
+- [x] The first-name field is visible.
+- [x] The last-name field is visible.
+- [x] The email field is visible.
+- [x] The password field is visible.
+- [x] Input values update as you type.
+- [x] Clicking `"Register"` calls `"handleRegister()"`.
+- [x] `"Register invoked"` appears in the browser console.
+- [x] The `"Login"` link opens `"/app/login"`.
+- [x] The styling is applied correctly.
 
 ---
 
@@ -658,14 +658,14 @@ Confirm that:
 
 Confirm that:
 
-- [ ] The login page loads.
-- [ ] The email field is visible.
-- [ ] The password field is visible.
-- [ ] Input values update as you type.
-- [ ] Clicking `"Login"` calls `"handleLogin()"`.
-- [ ] `"Login invoked"` appears in the browser console.
-- [ ] The `"Register Here"` link opens `"/app/register"`.
-- [ ] The styling is applied correctly.
+- [x] The login page loads.
+- [x] The email field is visible.
+- [x] The password field is visible.
+- [x] Input values update as you type.
+- [x] Clicking `"Login"` calls `"handleLogin()"`.
+- [x] `"Login invoked"` appears in the browser console.
+- [x] The `"Register Here"` link opens `"/app/register"`.
+- [x] The styling is applied correctly.
 
 ---
 
@@ -755,35 +755,35 @@ giftlink-frontend/src/App.js
 
 # Lab Completion Checklist
 
-- [ ] Create the `"RegisterPage"` folder.
-- [ ] Create `"RegisterPage.js"`.
-- [ ] Create `"RegisterPage.css"`.
-- [ ] Add registration state variables.
-- [ ] Add first-name input.
-- [ ] Add last-name input.
-- [ ] Add email input.
-- [ ] Add password input.
-- [ ] Add `"handleRegister()"`.
-- [ ] Add the `"Register"` button.
-- [ ] Add the login navigation link.
-- [ ] Style the registration page.
-- [ ] Create the `"LoginPage"` folder.
-- [ ] Create `"LoginPage.js"`.
-- [ ] Create `"LoginPage.css"`.
-- [ ] Add login state variables.
-- [ ] Add email input.
-- [ ] Add password input.
-- [ ] Add `"handleLogin()"`.
-- [ ] Add the `"Login"` button.
-- [ ] Add the registration navigation link.
-- [ ] Style the login page.
-- [ ] Import both pages into `"App.js"`.
-- [ ] Add the login route.
-- [ ] Add the registration route.
-- [ ] Test both pages.
-- [ ] Commit the changes.
-- [ ] Push the changes to GitHub.
-- [ ] Copy the public GitHub URLs for assessment.
+- [x] Create the `"RegisterPage"` folder.
+- [x] Create `"RegisterPage.js"`.
+- [x] Create `"RegisterPage.css"`.
+- [x] Add registration state variables.
+- [x] Add first-name input.
+- [x] Add last-name input.
+- [x] Add email input.
+- [x] Add password input.
+- [x] Add `"handleRegister()"`.
+- [x] Add the `"Register"` button.
+- [x] Add the login navigation link.
+- [x] Style the registration page.
+- [x] Create the `"LoginPage"` folder.
+- [x] Create `"LoginPage.js"`.
+- [x] Create `"LoginPage.css"`.
+- [x] Add login state variables.
+- [x] Add email input.
+- [x] Add password input.
+- [x] Add `"handleLogin()"`.
+- [x] Add the `"Login"` button.
+- [x] Add the registration navigation link.
+- [x] Style the login page.
+- [x] Import both pages into `"App.js"`.
+- [x] Add the login route.
+- [x] Add the registration route.
+- [x] Test both pages.
+- [x] Commit the changes.
+- [x] Push the changes to GitHub.
+- [x] Copy the public GitHub URLs for assessment.
 
 ---
 
