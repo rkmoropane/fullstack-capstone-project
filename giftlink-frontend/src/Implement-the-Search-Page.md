@@ -967,22 +967,22 @@ http://localhost:3000/app/search
 
 Confirm that:
 
-- [ ] The search page loads correctly.
-- [ ] The text search input is visible.
-- [ ] The category dropdown is visible.
-- [ ] The condition dropdown is visible.
-- [ ] The age slider is visible.
-- [ ] The selected age value updates correctly.
-- [ ] The search button triggers the API request.
-- [ ] Search results are displayed.
-- [ ] Gift images are displayed when available.
-- [ ] `"No Image Available"` appears when necessary.
-- [ ] The `"No products found"` message appears when no results match.
-- [ ] API errors display an appropriate message.
-- [ ] Clicking a result opens the gift details page.
-- [ ] The `"Search"` navigation link opens `"/app/search"`.
-- [ ] The layout works on different screen sizes.
-- [ ] No errors appear in the browser console.
+- [x] The search page loads correctly.
+- [x] The text search input is visible.
+- [x] The category dropdown is visible.
+- [x] The condition dropdown is visible.
+- [x] The age slider is visible.
+- [x] The selected age value updates correctly.
+- [x] The search button triggers the API request.
+- [x] Search results are displayed.
+- [x] Gift images are displayed when available.
+- [x] `"No Image Available"` appears when necessary.
+- [x] The `"No products found"` message appears when no results match.
+- [x] API errors display an appropriate message.
+- [x] Clicking a result opens the gift details page.
+- [x] The `"Search"` navigation link opens `"/app/search"`.
+- [x] The layout works on different screen sizes.
+- [x] No errors appear in the browser console.
 
 ---
 
@@ -1105,35 +1105,35 @@ Check that:
 
 # Lab Completion Checklist
 
-- [ ] Create the `"SearchPage"` folder.
-- [ ] Create `"SearchPage.js"`.
-- [ ] Create `"SearchPage.css"`.
-- [ ] Add search query state.
-- [ ] Add age range state.
-- [ ] Add category state.
-- [ ] Add condition state.
-- [ ] Add search results state.
-- [ ] Add loading state.
-- [ ] Add error state.
-- [ ] Create the search API request.
-- [ ] Use `"URLSearchParams"`.
-- [ ] Add the text search input.
-- [ ] Add the category dropdown.
-- [ ] Add the condition dropdown.
-- [ ] Add the age range slider.
-- [ ] Add the search button.
-- [ ] Render search results.
-- [ ] Add the empty-results message.
-- [ ] Add image placeholders.
-- [ ] Add navigation to the details page.
-- [ ] Style the search page.
-- [ ] Add responsive result cards.
-- [ ] Add the search route to `"App.js"`.
-- [ ] Add the search link to `"Navbar.js"`.
-- [ ] Test the search functionality.
-- [ ] Test the navigation.
-- [ ] Commit the changes.
-- [ ] Push the changes to GitHub.
+- [x] Create the `"SearchPage"` folder.
+- [x] Create `"SearchPage.js"`.
+- [x] Create `"SearchPage.css"`.
+- [x] Add search query state.
+- [x] Add age range state.
+- [x] Add category state.
+- [x] Add condition state.
+- [x] Add search results state.
+- [x] Add loading state.
+- [x] Add error state.
+- [x] Create the search API request.
+- [x] Use `"URLSearchParams"`.
+- [x] Add the text search input.
+- [x] Add the category dropdown.
+- [x] Add the condition dropdown.
+- [x] Add the age range slider.
+- [x] Add the search button.
+- [x] Render search results.
+- [x] Add the empty-results message.
+- [x] Add image placeholders.
+- [x] Add navigation to the details page.
+- [x] Style the search page.
+- [x] Add responsive result cards.
+- [x] Add the search route to `"App.js"`.
+- [x] Add the search link to `"Navbar.js"`.
+- [x] Test the search functionality.
+- [x] Test the navigation.
+- [x] Commit the changes.
+- [x] Push the changes to GitHub.
 
 ---
 
