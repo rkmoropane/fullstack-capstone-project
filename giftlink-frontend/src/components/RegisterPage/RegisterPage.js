@@ -25,14 +25,15 @@ function RegisterPage() {
 
                         <div className="mb-4">
 
-                            <label htmlFor="firstName" className="form label"> FirstName</label><br>
+                            <label htmlFor="firstName" className="form label"> FirstName</label><br/>
                             <input
                                 id="firstName"
                                 type="text"
                                 className="form-control"
                                 placeholder="Enter your firstName"
                                 value={firstName}
-                                onChange={(e) => setFirstName(e.target.value)}/>
+                                onChange={(e) => setFirstName(e.target.value)}
+                            />
                         </div>
 
                         <button className="btn btn-primary w-100 mb-3" onClick={handleRegister}>Register</button>
