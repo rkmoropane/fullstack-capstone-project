@@ -714,10 +714,10 @@ Replace `"PRODUCT_ID"` with a valid gift ID from the database.
 
 Confirm that:
 
-- [ ] A logged-in user can access the details page.
-- [ ] A user without `"auth-token"` is redirected to `"/app/login"`.
-- [ ] The gift API is not fetched after an unauthenticated redirect.
-- [ ] The login page opens correctly.
+- [x] A logged-in user can access the details page.
+- [x] A user without `"auth-token"` is redirected to `"/app/login"`.
+- [x] The gift API is not fetched after an unauthenticated redirect.
+- [x] The login page opens correctly.
 
 To test an authenticated user, ensure that the expected token exists in `"sessionStorage"`:
 
@@ -733,23 +733,23 @@ Use a valid token according to the project's authentication system.
 
 Confirm that:
 
-- [ ] The details page loads.
-- [ ] A loading message appears while data is being fetched.
-- [ ] The gift name is displayed.
-- [ ] The gift image is displayed when available.
-- [ ] `"No Image Available"` appears when there is no image.
-- [ ] The gift category is displayed.
-- [ ] The gift condition is displayed.
-- [ ] The date added is displayed.
-- [ ] The gift age is displayed.
-- [ ] The gift description is displayed.
-- [ ] Comments are rendered correctly.
-- [ ] The back button returns to the previous page.
-- [ ] The page scrolls to the top when loaded.
-- [ ] API errors display an appropriate message.
-- [ ] Missing gifts display `"Gift not found"`.
-- [ ] The page styling is applied correctly.
-- [ ] No errors appear in the browser console.
+- [x] The details page loads.
+- [x] A loading message appears while data is being fetched.
+- [x] The gift name is displayed.
+- [x] The gift image is displayed when available.
+- [x] `"No Image Available"` appears when there is no image.
+- [x] The gift category is displayed.
+- [x] The gift condition is displayed.
+- [x] The date added is displayed.
+- [x] The gift age is displayed.
+- [x] The gift description is displayed.
+- [x] Comments are rendered correctly.
+- [x] The back button returns to the previous page.
+- [x] The page scrolls to the top when loaded.
+- [x] API errors display an appropriate message.
+- [x] Missing gifts display `"Gift not found"`.
+- [x] The page styling is applied correctly.
+- [x] No errors appear in the browser console.
 
 ---
 
