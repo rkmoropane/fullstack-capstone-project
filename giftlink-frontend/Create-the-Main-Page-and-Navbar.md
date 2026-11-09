@@ -399,18 +399,18 @@ npm start
 
 Confirm that:
 
-- [ ] The main page loads successfully.
-- [ ] Gifts are fetched from the backend.
-- [ ] Gift names are displayed.
-- [ ] Gift conditions are displayed.
-- [ ] Gift dates are formatted correctly.
-- [ ] Gift images are displayed when available.
-- [ ] `"No Image Available"` appears when a gift has no image.
-- [ ] The `"Home"` link opens `"home.html"`.
-- [ ] The `"Gifts"` link opens the main gifts page.
-- [ ] The `"View Details"` button opens the correct details page.
-- [ ] Clicking `"Get Started"` on the home page returns to the main page.
-- [ ] No errors appear in the browser console.
+- [x] The main page loads successfully.
+- [x] Gifts are fetched from the backend.
+- [x] Gift names are displayed.
+- [x] Gift conditions are displayed.
+- [x] Gift dates are formatted correctly.
+- [x] Gift images are displayed when available.
+- [x] `"No Image Available"` appears when a gift has no image.
+- [x] The `"Home"` link opens `"home.html"`.
+- [x] The `"Gifts"` link opens the main gifts page.
+- [x] The `"View Details"` button opens the correct details page.
+- [x] Clicking `"Get Started"` on the home page returns to the main page.
+- [x] No errors appear in the browser console.
 
 ---
 
@@ -513,28 +513,28 @@ Do not commit sensitive passwords or private environment variables to GitHub.
 
 # Lab Completion Checklist
 
-- [ ] Fetch gifts from the backend API.
-- [ ] Store gifts in React state.
-- [ ] Display all available gifts.
-- [ ] Display gift images.
-- [ ] Display placeholders for missing images.
-- [ ] Display gift names.
-- [ ] Display gift conditions.
-- [ ] Format gift timestamps.
-- [ ] Add navigation to the details page.
-- [ ] Add the `"Home"` navbar link.
-- [ ] Add the `"Gifts"` navbar link.
-- [ ] Configure the backend environment.
-- [ ] Configure the frontend environment.
-- [ ] Install backend dependencies.
-- [ ] Install frontend dependencies.
-- [ ] Build the frontend application.
-- [ ] Start both applications.
-- [ ] Test the application in a browser.
-- [ ] Configure Git.
-- [ ] Stage the changes.
-- [ ] Commit the changes.
-- [ ] Push the changes to GitHub.
+- [x] Fetch gifts from the backend API.
+- [x] Store gifts in React state.
+- [x] Display all available gifts.
+- [x] Display gift images.
+- [x] Display placeholders for missing images.
+- [x] Display gift names.
+- [x] Display gift conditions.
+- [x] Format gift timestamps.
+- [x] Add navigation to the details page.
+- [x] Add the `"Home"` navbar link.
+- [x] Add the `"Gifts"` navbar link.
+- [x] Configure the backend environment.
+- [x] Configure the frontend environment.
+- [x] Install backend dependencies.
+- [x] Install frontend dependencies.
+- [x] Build the frontend application.
+- [x] Start both applications.
+- [x] Test the application in a browser.
+- [x] Configure Git.
+- [x] Stage the changes.
+- [x] Commit the changes.
+- [x] Push the changes to GitHub.
 
 ---
 
