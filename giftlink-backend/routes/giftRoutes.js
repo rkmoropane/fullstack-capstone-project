@@ -47,7 +47,7 @@ router.get('/:id', async (req, res, next) => {
     } catch (e) {
         logger.console.error('Error fetching gift:', e);
         // res.status(500).send('Error fetching gift');
-        next(e)
+        next(e);
     }
 });
 
