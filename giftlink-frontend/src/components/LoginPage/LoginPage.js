@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './LoginPage.css';
 
 //Task 1: Import urlConfig from `giftlink-frontend/src/config.js`
@@ -36,7 +36,7 @@ function LoginPage() {
 
 
     // insert code here to create handleLogin function and include console.log
-    const handleLogin = async () => {
+    const handleLogin = async (e) => {
         e.preventDefault();
         console.log("Inside handleLogin");
         //Step 1: Implement API call
@@ -56,7 +56,8 @@ function LoginPage() {
         });
 
 		//Step 2: Access data and set user details
-
+        const json = await res.json();
+        console.log('Json',json);
         if (json.authtoken) {
             // Tasks 1-4 done previously
             // Task 1: Access data coming from fetch API
