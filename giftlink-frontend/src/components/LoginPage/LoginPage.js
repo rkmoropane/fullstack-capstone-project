@@ -28,11 +28,11 @@ function LoginPage() {
     const { setIsLoggedIn } = useAppContext(); 
     
     //Task 6. If the bearerToken has a value (user already logged in), navigate to MainPage
-    useEffect(() => {
-        if (sessionStorage.getItem('auth-token')) {
-          navigate('/app');
-        }
-      }, [navigate]);
+	useEffect(() => {
+	    if (sessionStorage.getItem('auth-token')) {
+	        navigate('/app');
+	    }
+	}, [navigate]);
 
 
     // insert code here to create handleLogin function and include console.log
