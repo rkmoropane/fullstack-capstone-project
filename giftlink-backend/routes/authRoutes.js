@@ -5,7 +5,6 @@ const express = require('express');
 const app = express();
 const bcryptjs = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const { body, validationResult } = require('express-validator');
 const connectToDatabase = require('../models/db');
 const router = express.Router();
 const dotenv = require('dotenv');
@@ -58,7 +57,8 @@ router.post('/register', async (req, res) => {
         logger.info('User registered successfully');
         res.json({authtoken,email});
     } catch (e) {
-         return res.status(500).send('Internal server error');
+        logger.error(e);
+        return res.status(500).send('Internal server error');
     }
 });
 
@@ -158,7 +158,7 @@ router.put('/update', async (req, res) => {
 
         res.json({authtoken});
     } catch (e) {
-        logger.error(error);
+        logger.error(e);
         return res.status(500).send('Internal server error');
 
     }
